@@ -10,9 +10,9 @@ class Home extends React.Component {
     return (
       <div className='Home'>
         <nav className='Home-game-selection'>
-          <a href='#'>Brick Breaker</a>
-          <a href='#'>Minesweeper</a>
-          <a href='#'>Snake</a>
+          <button href='#'>Brick Breaker</button>
+          <button href='#'>Minesweeper</button>
+          <button href='#'>Snake</button>
         </nav>
       </div>
     );

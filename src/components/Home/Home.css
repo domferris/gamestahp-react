@@ -7,4 +7,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+:focus {
+  color: red;
+}
 /*# sourceMappingURL=Home.css.map */
