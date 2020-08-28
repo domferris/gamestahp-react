@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 
 class Home extends React.Component {
   constructor(props) {
@@ -8,9 +9,11 @@ class Home extends React.Component {
   render() {
     return (
       <div className='Home'>
-        <a href='#'>Brick Breaker</a>
-        <a href='#'>Minesweeper</a>
-        <a href='#'>Snake</a>
+        <nav className='Home-game-selection'>
+          <a href='#'>Brick Breaker</a>
+          <a href='#'>Minesweeper</a>
+          <a href='#'>Snake</a>
+        </nav>
       </div>
     );
   }
