@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css';
 
 class Home extends React.Component {
   constructor(props) {
@@ -8,9 +10,17 @@ class Home extends React.Component {
   render() {
     return (
       <div className='Home'>
-        <a href='#'>Brick Breaker</a>
-        <a href='#'>Minesweeper</a>
-        <a href='#'>Snake</a>
+        <nav className='Home-game-selection'>
+          <Link to='/brick-breaker'>
+            <button>Brick Breaker</button>
+          </Link>
+          <Link to='/minesweeper'>
+            <button>Minesweeper</button>
+          </Link>
+          <Link to='/snake'>
+            <button>Snake</button>
+          </Link>
+        </nav>
       </div>
     );
   }
